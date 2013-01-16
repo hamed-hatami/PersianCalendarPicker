@@ -1,16 +1,3 @@
-// ** I18N
-
-// Calendar BG language
-// Author: Mihai Bazon, <mihai_bazon@yahoo.com>
-// Translator: Valentin Sheiretsky, <valio@valio.eu.org>
-// Encoding: Windows-1251
-// Distributed under the same terms as the calendar itself.
-
-// For translators: please use UTF-8 if possible.  We strongly believe that
-// Unicode is the answer to a real internationalized world.  Also please
-// include your contact information in the header, as can be seen above.
-
-// full day names
 Calendar._DN = new Array
 ("Неделя",
  "Понеделник",
@@ -20,18 +7,6 @@ Calendar._DN = new Array
  "Петък",
  "Събота",
  "Неделя");
-
-// Please note that the following array of short day names (and the same goes
-// for short month names, _SMN) isn't absolutely necessary.  We give it here
-// for exemplification on how one can customize the short day names, but if
-// they are simply the first N letters of the full name you can simply say:
-//
-//   Calendar._SDN_len = N; // short day name length
-//   Calendar._SMN_len = N; // short month name length
-//
-// If N = 3 then this is not needed either since we assume a value of 3 if not
-// present, to be compatible with translation files that were written before
-// this feature.
 
 // short day names
 Calendar._SDN = new Array
@@ -103,13 +78,8 @@ Calendar._TT["SEL_DATE"] = "Изберете дата";
 Calendar._TT["DRAG_TO_MOVE"] = "Преместване";
 Calendar._TT["PART_TODAY"] = " (днес)";
 
-// the following is to inform that "%s" is to be the first day of week
-// %s will be replaced with the day name.
 Calendar._TT["DAY_FIRST"] = "%s като първи ден";
 
-// This may be locale-dependent.  It specifies the week-end days, as an array
-// of comma-separated numbers.  The numbers are from 0 to 6: 0 means Sunday, 1
-// means Monday, etc.
 Calendar._TT["WEEKEND"] = "0,6";
 
 Calendar._TT["CLOSE"] = "Затворете";
