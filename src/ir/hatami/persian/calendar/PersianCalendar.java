@@ -81,6 +81,18 @@ public class PersianCalendar extends UIInput {
             }
         }
 
+        if (getAttributes().get("style") instanceof String) {
+            if (!getAttributes().get("style").toString().isEmpty()) {
+                writer.writeAttribute("style", getAttributes().get("style").toString(), "style");
+            }
+        }
+
+        if (getAttributes().get("tabindex") instanceof String) {
+            if (!getAttributes().get("tabindex").toString().isEmpty()) {
+                writer.writeAttribute("tabindex", getAttributes().get("tabindex").toString(), "tabindex");
+            }
+        }
+
         writer.endElement("input");
 
         writer.write("<script type=\"text/javascript\">" + "Calendar.setup({"
