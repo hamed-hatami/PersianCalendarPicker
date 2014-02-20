@@ -12,6 +12,26 @@
         <component>
             <component-type>ir.hatami.persian.calendar.PersianCalendar</component-type>
         </component>
+        <attribute>
+            <name>value</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>disabled</name>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>styleClass</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>style</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>tabindex</name>
+            <type>java.lang.String</type>
+        </attribute>
     </tag>
 
 </facelet-taglib>

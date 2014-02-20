@@ -31,8 +31,8 @@ Calendar.setup = function (params) {
 	param_default("dateType",        "gregorian");
 	param_default("ifDateType",      null);
 	param_default("langNumbers",     false);
-	param_default("autoShowOnFocus", false);
-	param_default("autoFillAtStart", false);
+	param_default("autoShowOnFocus", true);
+	param_default("autoFillAtStart", true);
 
 	var tmp = ["inputField", "displayArea", "button"];
 	for (var i in tmp) {

@@ -5,13 +5,13 @@
     <description>PersianCalendarPicker</description>
 
     <property environment="env"/>
-    <property name="display.name" value="PersianCalendarPicker"/>
+    <property name="display.name" value="PersianCalendarPicker-1.1"/>
     <property name="name" value="PersianCalendarPicker"/>
     <property name="lib.dir" value="lib"/>
 
     <property name="bin.dir" value="bin"/>
     <property name="build.dir" value="build"/>
-    <property name="deploy.dir" value="/home/hatami/project/Aria/lib"/>
+    <property name="deploy.dir" value="/home/hosein/jbdevstudio/erfanianOSIProcess/lib/"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
 
     <property name="resources.dir" value="resources"/>
@@ -116,6 +116,7 @@
             </zipfileset>
             <manifest>
                 <attribute name="Built-By" value="Hamed Hatami"/>
+                <attribute name="Edited-By" value="S.M.H.Jamali"/>
             </manifest>
         </jar>
     </target>
